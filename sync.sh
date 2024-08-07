@@ -1,0 +1,1 @@
+rsync -rlptzv --progress --delete --exclude=.git --exclude gunicorn.data --exclude .venv --exclude .env --exclude myvenv --exclude db.sqlite3 --exclude .vscode --exclude __pycache__ --exclude static . "lorekhov@158.160.109.83:/home/lorekhov/workspace/piggy"
