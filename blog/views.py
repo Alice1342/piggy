@@ -2,6 +2,8 @@ import datetime
 
 from django.shortcuts import HttpResponse
 
+def post_list(request):
+    return render(request, 'blog/post_list.html', {})
 
 def current_datetime(request):
     now = datetime.datetime.now()
