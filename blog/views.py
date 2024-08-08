@@ -1,6 +1,6 @@
 import datetime
 
-from django.shortcuts import HttpResponse
+from django.shortcuts import HttpResponse, render
 
 def post_list(request):
     return render(request, 'blog/post_list.html', {})

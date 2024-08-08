@@ -21,6 +21,6 @@ from blog.views import current_datetime
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('time', current_datetime)
+    path('time', current_datetime),
     path('', include('blog.urls')),
 ]
